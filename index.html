@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tailwind customize config -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+    <title>Tailwind</title>
+</head>
+
+<body>
+    <div class="container mx-auto">
+        <div class="columns-xs">
+            <img class="w-full aspect-square" src="images/jacket-3.png" alt="">
+            <img class="w-full aspect-square" src="images/jacket-2.png" alt="">
+            <img class="w-full aspect-square" src="images/jacket-1.png" alt="">
+            <img class="w-full aspect-square" src="images/jacket-4.png" alt="">
+            <img class="w-full aspect-square" src="images/jacket-5.png" alt="">
+            <img class="w-full aspect-square" src="images/jacket-6.png" alt="">
+        </div>
+        <div>
+            <div class="container border-2 border-solid mx-auto">
+                <h3 style="text-align: center;">Justify-content: flex-end <br>align-items: flex-center</h3>
+                <div class="flex h-96 justify-end items-center">
+                    <div class="bg-blue-500 border-2 h-32 w-32 p-10 text-center">
+                        <p>box</p>
+                    </div>
+                    <div class="bg-blue-500 border-2 h-32 w-32 p-10 text-center">
+                        <p>box</p>
+                    </div>
+                    <div class="bg-blue-500 border-2 h-32 w-32 p-10 text-center">
+                        <p>box</p>
+                    </div>
+                    <div class="bg-blue-500 border-2 h-32 w-32 p-10 text-center">
+                        <p>box</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container border-2 border-solid mx-auto">
+                <h3 style="text-align: center;">Justify-content: center; <br>align-items: flex-end</h3>
+                <div class="flex h-96 justify-center items-end">
+                    <div class="bg-blue-500 border-2 h-32 w-32 p-10 text-center">
+                        <p>box</p>
+                    </div>
+                    <div class="bg-blue-500 border-2 h-32 w-32 p-10 text-center">
+                        <p>box</p>
+                    </div>
+                    <div class="bg-blue-500 border-2 h-32 w-32 p-10 text-center">
+                        <p>box</p>
+                    </div>
+                    <div class="bg-blue-500 border-2 h-32 w-32 p-10 text-center">
+                        <p>box</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container border-2 border-solid mx-auto">
+                <h3 style="text-align: center;">Justify-content: space-between <br>align-items: center</h3>
+                <div class="flex h-96 justify-between items-center">
+                    <div class="bg-blue-500 border-2 h-32 w-32 p-10 text-center">
+                        <p>box</p>
+                    </div>
+                    <div class="bg-blue-500 border-2 h-32 w-32 p-10 text-center">
+                        <p>box</p>
+                    </div>
+                    <div class="bg-blue-500 border-2 h-32 w-32 p-10 text-center">
+                        <p>box</p>
+                    </div>
+                    <div class="bg-blue-500 border-2 h-32 w-32 p-10 text-center">
+                        <p>box</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="h-60 border-2 overflow-hidden">
+            <img src="images/jacket-2.png" alt="" class="object-none object-left-bottom">
+        </div>
+    </div>
+    <div class="container mx-auto grid grid-cols-3 gap-3 text-center ">
+        <div class="bg-slate-900 text-8xl text-red-600 p-10"><span>1</span></div>
+        <div class="bg-slate-900 text-8xl text-red-600 p-10"><span>2</span></div>
+        <div class="bg-slate-900 text-8xl text-red-600 p-10"><span>3</span></div>
+        <div class="bg-slate-900 text-8xl text-red-600 p-10"><span>4</span></div>
+        <div class="bg-slate-900 text-8xl text-red-600 p-10"><span>5</span></div>
+        <div class="bg-slate-900 text-8xl text-red-600 p-10"><span>6</span></div>
+        <div class="bg-slate-900 text-8xl text-red-600 p-10"><span>7</span></div>
+        <div class="bg-slate-900 text-8xl text-red-600 p-10"><span>8</span></div>
+        <div class="bg-slate-900 text-8xl text-red-600 p-10"><span>9</span></div>
+        <div class="bg-slate-900 text-8xl text-red-600 p-10"><span>10</span></div>
+        <div class="bg-slate-900 text-8xl text-red-600 p-10"><span>11</span></div>
+        <div class="bg-slate-900 text-8xl text-red-600 p-10"><span>12</span></div>
+        <div class="bg-slate-900 text-8xl text-red-600 p-10"><span>13</span></div>
+        <div class="bg-slate-900 text-8xl text-red-600 p-10"><span>14</span></div>
+        <div class="bg-slate-900 text-8xl text-red-600 p-10"><span>15</span></div>
+    </div>
+
+
+</body>
+
+</html>
